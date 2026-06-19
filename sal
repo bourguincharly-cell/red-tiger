@@ -1,0 +1,20 @@
+red-tiger/
+├── README.md                 # Documentation principale
+├── INSTALLATION.md           # Guide d'installation
+├── USAGE.md                  # Guide d'utilisation
+├── ARCHITECTURE.md           # Architecture technique
+├── .gitignore               # Fichiers à ignorer
+│
+├── backend/
+│   ├── package.json         # Dépendances Node.js
+│   ├── server.js            # Serveur Express
+│   └── .env.example         # Variables d'environnement
+│
+├── frontend/
+│   ├── package.json         # Dépendances React
+│   ├── public/
+│   │   ├── index.html       # Page HTML
+│   │   └── app.js           # Application JavaScript
+│
+└── k6/
+    └── test-template.js     # Template de script k6
